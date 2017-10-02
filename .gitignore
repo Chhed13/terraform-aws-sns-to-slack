@@ -1,0 +1,20 @@
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+#vagrant stuff
+.vagrant/
+.vagrant.d/
+.kitchen/
+cookbooks/
+.terraform/
+*.tfstate
+*.tfstate.backup
+_test_*
+
+**/bin/
+**/obj/
+*.suo
+**/packages/
+*.csproj.user
+*.zip
