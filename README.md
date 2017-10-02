@@ -25,7 +25,7 @@
 | lambda_version        | string | Version of lambda. Just for help purposes       |
 | lambda_publich_status | string | Public status of lambda. Just for help purposes |
 
-#Notification levels
+# Notification levels
 Now 3 levels are supported: OK, WARN, ERROR. In OK - message is quoted with green line, in WARN - with orange, 
 in ERROR - with red.
 
