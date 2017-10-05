@@ -15,7 +15,7 @@ exports.handler = function(event, context) {
     lMessage = message.toLowerCase();
     lSubject = subject.toLowerCase();
     post_to_err = false;
-    if (lMessage.indexOf("warn") >= 0 || lSubject.indexOf("warning") >= 0){
+    if (lMessage.indexOf("warn") >= 0 || lSubject.indexOf("warn") >= 0){
         console.log("color set to warning");
         color = "warning"
     }
