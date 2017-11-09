@@ -1,5 +1,6 @@
 # Terraform module which creates AWS SNS endpoint to post to Slack
-[![Terraform Module Registry](https://img.shields.io/badge/Terraform%20Module%20Registry-0.2.0-blue.svg)](https://registry.terraform.io/modules/indix/maintenance-lambda/aws/0.5.0) ![Terraform Version](https://img.shields.io/badge/Terraform-0.9.0-green.svg)
+[![Terraform Module Registry](https://img.shields.io/badge/Terraform%20Module%20Registry-0.2.0-blue.svg)](https://registry.terraform.io/modules/Chhed13/sns-to-slack/aws/0.2.0) 
+![Terraform Version](https://img.shields.io/badge/Terraform-0.9.0-green.svg)
 
 <img src="https://www.shareicon.net/data/128x128/2015/08/28/92269_copy_512x512.png" width="128px"> 
 <img src="http://iosicongallery.com/img/128/slack-2014.png" width="128px">
