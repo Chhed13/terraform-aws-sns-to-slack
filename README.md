@@ -18,7 +18,7 @@
 
 # Output variables
 
-| Variable              |  Type  | Description                                     |
+| Outputs               |  Type  | Description                                     |
 |-----------------------|:------:|-------------------------------------------------|
 | sns_arn               | string | ARN of SNS topic to post messages               |
 | lambda_arn            | string | ARN of lambda that will implement Slack posts   |
