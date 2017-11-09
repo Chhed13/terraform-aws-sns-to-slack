@@ -5,7 +5,7 @@ locals {
 data archive_file notify {
   type        = "zip"
   source_file = "${path.module}/${local.func_name}.js"
-  output_path = "${path.module}/${local.func_name}.zip"
+  output_path = "${local.func_name}_${random_id.notify.hex}.zip"
 }
 
 resource aws_lambda_function notify {
@@ -13,7 +13,7 @@ resource aws_lambda_function notify {
   handler          = "${local.func_name}.handler"
   role             = "${aws_iam_role.notify.arn}"
   runtime          = "nodejs6.10"
-  filename         = "${path.module}/${local.func_name}.zip"
+  filename         = "${local.func_name}_${random_id.notify.hex}.zip"
   source_code_hash = "${data.archive_file.notify.output_base64sha256}"
   timeout          = 3
   publish          = true
