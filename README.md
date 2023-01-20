@@ -3,8 +3,6 @@
 ![Terraform Version](https://img.shields.io/badge/Terraform-0.9.0-green.svg)
 
 <img src="https://www.shareicon.net/data/128x128/2015/08/28/92269_copy_512x512.png" width="128px"> 
-<img src="http://iosicongallery.com/img/128/slack-2014.png" width="128px">
-<img src="https://cdn.rawgit.com/hashicorp/terraform-website/master/content/source/assets/images/logo-hashicorp.svg" width="520px">
 
 # Input variables
 
